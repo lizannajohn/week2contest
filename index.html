@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Employee Sign Up Form </title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+    <h4> New Employees </h4>
+
+    <!-- User Form -->
+    <form id="form">
+        <div class="forminputs">
+            <div class="formitem">
+                <label for="empname input"> Enter Name </label>
+                <br>
+                <input type="text" name="name" id="empname" value="">
+            </div>
+
+            <div class="formitem">
+                <label for="profession input"> Profession </label>
+                <br>
+                <input type="text" name="profession" id="profession" value="">
+            </div>
+
+            <div class="formitem">
+                <label for="age input"> Enter Age </label>
+                <br>
+                <input type="number" name="age" id="age" value="">
+            </div>
+        </div>
+
+        <div class="formbutton">
+            <input type="button" id="adduserbtn" value="Add User" onclick="submitForm()">
+        </div>
+    </form>
+
+    <div class="message">
+        <span id="usermsg"> </span>
+    </div>
+
+    <!-- User Display Table -->
+    <h4> Added Employees </h4>
+    <div id="numberemps">
+        You have 0 employees
+    </div>
+
+    <div class="tablesection">
+        <table id="table">
+            
+        </table>
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>

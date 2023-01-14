@@ -1,0 +1,60 @@
+*
+{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html
+{
+    margin: 5px;
+}
+
+body
+{
+    background-color: #000;
+    color: #fff;
+}
+
+form .forminputs
+{
+    display: flex;
+    /* gap: 15px; */
+    justify-content: space-between;
+}
+
+.formitem input
+{
+    height: 30px;
+    width: 470px;
+    margin: 10px 10px 15px 0px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    color: #fff;
+    padding-left: 10px;
+}
+
+.formitem input:focus
+{
+    background-color: transparent;
+}
+
+.formbutton input
+{
+    height: 30px;
+    width: 120px;
+}
+
+.message
+{
+    margin-top: 15px;
+}
+
+.message .usermsg
+{
+    color: #fff;
+}
+
+.table
+{
+    border-collapse: collapse;
+}
