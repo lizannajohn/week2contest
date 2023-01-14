@@ -1,5 +1,5 @@
 Deployment Link:
-
+https://lizannajohn.github.io/week2contest/
 
 Project Overview
 1.Make a simple form with Validation through JavaScript. (40 marks)
